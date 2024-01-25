@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router-dom'
 
+import { Footer } from '@/components/footer'
 import { Header } from '@/components/header'
 
 export function AppLayout() {
@@ -10,6 +11,8 @@ export function AppLayout() {
       <div className="flex flex-1 flex-col gap-4 p-14 pt-6">
         <Outlet />
       </div>
+
+      <Footer />
     </div>
   )
 }

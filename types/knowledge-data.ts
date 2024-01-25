@@ -5,5 +5,12 @@ export interface KnowledgeData {
   title: string
   subtitle: string
   description: string
-  image: ImageProps[]
+  image: ImageProps
+  link?: string
+}
+
+export interface KnowledgeDataChart {
+  id: number
+  name: string
+  quality: number
 }

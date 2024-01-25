@@ -5,8 +5,8 @@ import { KnowledgeCarousel } from '@/components/experience-carousel'
 export function Knowledge() {
   return (
     <>
-      <Helmet title="Experiência" />
-      <div className="flex justify-center w-full h-[500px]">
+      <Helmet title="Conhecimentos" />
+      <div className="w-full flex justify-center items-center">
         <KnowledgeCarousel />
       </div>
     </>
