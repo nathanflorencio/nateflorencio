@@ -36,7 +36,7 @@ export function ContactDetails() {
   return (
     <DialogContent>
       <DialogHeader>
-        <DialogTitle>Meus Contato</DialogTitle>
+        <DialogTitle>Meus Contatos</DialogTitle>
         <DialogDescription>
           Para entrar em contato comigo, clique em algum dos links abaixo:
         </DialogDescription>

@@ -1,13 +1,13 @@
 {
   "name": "nateflorenciodev",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
-    "dev": "bunx --bun vite",
-    "build": "tsc && bunx --bun vite build",
+    "dev": "vite",
+    "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "bunx --bun vite preview"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.0.5",
@@ -17,9 +17,9 @@
     "@radix-ui/react-tooltip": "^1.0.7",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
-    "embla-carousel-autoplay": "8.0.0-rc20",
-    "embla-carousel-react": "8.0.0-rc20",
-    "lucide-react": "^0.314.0",
+    "embla-carousel-autoplay": "8.0.0-rc21",
+    "embla-carousel-react": "8.0.0-rc21",
+    "lucide-react": "^0.316.0",
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

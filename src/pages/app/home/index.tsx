@@ -7,7 +7,7 @@ export function Home() {
   return (
     <>
       <Helmet title="Início" />
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 lg:mt-10">
         <div className="flex items-center justify-center w-full lg:w-4/5 h-[600px] md:rounded-sm">
           <ImageProfile />
         </div>
