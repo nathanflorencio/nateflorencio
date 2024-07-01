@@ -1,4 +1,4 @@
-import { ImageProps } from './image-props'
+import { ImageProps } from '@/types/image-props'
 
 export interface KnowledgeData {
   id: number

@@ -1,15 +1,17 @@
+'use client'
+
 import Autoplay from 'embla-carousel-autoplay'
+import Image from 'next/image'
 
-import { knowledgeData } from '@/data/knowledge-data'
-
-import { Card, CardContent } from './ui/card'
+import { Card, CardContent } from '@/components/ui/card'
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from './ui/carousel'
+} from '@/components/ui/carousel'
+import { knowledgeData } from '@/data/knowledge-data'
 
 export function KnowledgeCarousel() {
   return (
@@ -52,7 +54,7 @@ export function KnowledgeCarousel() {
                         )}
                       </h5>
                     </div>
-                    <img
+                    <Image
                       width={200}
                       height={200}
                       src={technology.image.image}

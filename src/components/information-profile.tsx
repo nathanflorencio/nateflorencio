@@ -1,3 +1,5 @@
+'use client'
+
 import {
   CartesianGrid,
   Legend,
@@ -10,9 +12,8 @@ import {
 } from 'recharts'
 import colors from 'tailwindcss/colors'
 
+import { Textarea } from '@/components/ui/textarea'
 import { chartData } from '@/data/chart-data'
-
-import { Textarea } from './ui/textarea'
 
 export function InformationProfile() {
   return (

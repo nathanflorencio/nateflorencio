@@ -1,4 +1,4 @@
-import { KnowledgeDataChart } from 'types/knowledge-data'
+import { KnowledgeDataChart } from '@/types/knowledge-data'
 
 export const chartData: KnowledgeDataChart[] = [
   {

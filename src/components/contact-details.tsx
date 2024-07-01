@@ -1,3 +1,5 @@
+'use client'
+
 import { useRef } from 'react'
 import {
   FaFacebook,
@@ -13,8 +15,8 @@ import {
   DialogDescription,
   DialogHeader,
   DialogTitle,
-} from './ui/dialog'
-import { Separator } from './ui/separator'
+} from '@/components/ui/dialog'
+import { Separator } from '@/components/ui/separator'
 
 export function ContactDetails() {
   const emailRef = useRef<HTMLSpanElement | null>(null)

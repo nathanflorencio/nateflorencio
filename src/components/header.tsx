@@ -1,18 +1,22 @@
-import { TooltipContent, TooltipTrigger } from '@radix-ui/react-tooltip'
 import { Book, Briefcase, Contact2 } from 'lucide-react'
 
-import { ContactDetails } from './contact-details'
-import { NavLink } from './nav-link'
-import { ThemeToggle } from './theme/theme-toggle'
-import { Button } from './ui/button'
-import { Dialog, DialogTrigger } from './ui/dialog'
-import { Separator } from './ui/separator'
-import { Tooltip, TooltipProvider } from './ui/tooltip'
+import { ContactDetails } from '@/components/contact-details'
+import { NavLink } from '@/components/nav-link'
+import { ThemeToggle } from '@/components/theme/theme-toggle'
+import { Button } from '@/components/ui/button'
+import { Dialog, DialogTrigger } from '@/components/ui/dialog'
+import { Separator } from '@/components/ui/separator'
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from '@/components/ui/tooltip'
 
 export function Header() {
   return (
     <Dialog>
-      <div className="border-b">
+      <div className="border-b mb-8">
         <div className="flex h-16 items-center gap-6 px-6">
           <header>
             <TooltipProvider>

@@ -1,14 +1,14 @@
-# NateFlorencio - v1.0.1 [Vite + TypeScript]
+# NateFlorencio - v1.1.0 [NextJS + TypeScript]
 
-### Nathan de Camargo Florencio - Front-end Developer
+## Nathan de Camargo Florencio - FullStack Developer
 
-#### nateflorencio.vercel.app
+### nateflorencio.vercel.app
 
-#### This is my personal website developed in ReactJS framework (Vite) using TypeScript, PNPM (package-manager) and Shadcn-UI (components). Deployed in Vercel.
+#### This is my personal website developed in ReactJS framework (NextJS) using TypeScript, pnpm (package-manager) and shadcn/ui (components). Deployed in Vercel.
 
-* Follow the commands to run this project in your localhost (127.0.0.1)
+* Follow the commands to run this project in your `http://localhost:3000`
   - `pnpm install`
   - `pnpm run build`
-  - `pnpm run preview`
+  - `pnpm run start`
 
-* And enjoy it! :D
+* Enjoy it! :D
